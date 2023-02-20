@@ -5,7 +5,7 @@ import os
 TEST_INPUT ={"Model": "RF","HT": {"Mean": 48.43,"STD": 23.34}, "PPT": { "Mean": 120.43, "STD": 37.41}, "RRT": {"Mean": 124.43,"STD": 45.34},  "RPT": {"Mean": 132.56, "STD": 47.12}}
 
 URL_DOCKER = "http://localhost:8080/2015-03-31/functions/function/invocations"
-URL_LAMBDA = "<URL_LAMBDA>"
+URL_LAMBDA = "https://9t3cvckvk0.execute-api.us-east-1.amazonaws.com/Dev_v1"
 # ---------------------------------------------------------------------------------------------------- #
 # Send requests
 docker_resp = requests.post(URL_DOCKER, json=TEST_INPUT).json()

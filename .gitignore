@@ -6,7 +6,7 @@ training/.ipynb_checkpoints/*
 commands.txt
 ParentChildsLambdas/Readme.md
 ParentChildsLambdas/*/*.pkl
-ParentChildsLambdas/*/*.json
+ParentChildsLambdas/ChildLambda_XGB/*.json
 backups/*
 training/.ipynb_checkpoints/*
 ```
