@@ -1,8 +1,8 @@
 ## MLOPS Challenge
-Objective: build and deploy a Machine learning model for user recognition based on keystroke data and is consists of 2 separate parts.
+<strong>Objective:</strong> Build and deploy a Machine learning model for user recognition based on keystroke data and is consists of 2 separate parts.
 
 ### Part 1 – Building Models
-Details about building models can be found in the this [notebook](training/TF%20MLOPs%20challenge.ipynb)
+Details about building models can be found in the this [notebook](training/TF%20MLOPs%20challenge.ipynb).
 <br>
 ### Part 2- Deploying Models
 ![Architecure](assets/architecture.png)
@@ -13,9 +13,9 @@ Details about building models can be found in the this [notebook](training/TF%20
     <li>Parent Lambda function invokes the correct child lambda function(Child Lambdas are SF, RF, XGB) and sends the payload it received.</li>
     <li>Child Lambda function receives the payload and do the following:
     <ol type="a">
-            <li>load the model</li>
-            <li>extract the features from the payload</li>
-            <li>sends the model’s prediction back to Parent Lambda function.</li>
+            <li>Load the model.</li>
+            <li>Extract the features from the payload.</li>
+            <li>Sends the model’s prediction back to Parent Lambda function.</li>
         </ol>
     </li>
     <li>Parent lambda function receives the response from child lambda and sends the results to APIGATEWAY.</li>
