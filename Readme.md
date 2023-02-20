@@ -3,8 +3,9 @@
 
 ### Part 1 – Building Models
 Details about building models can be found in the this [notebook](training/TF%20MLOPs%20challenge.ipynb).
-<br>
+
 ### Part 2- Deploying Models
+All the necessary code can be found in [this directory](ParentChildsLambdas).
 ![Architecure](assets/architecture.png)
 <ol>
     <li>Payload is sent to AWS API GATEWAY.</li>
@@ -23,5 +24,5 @@ Details about building models can be found in the this [notebook](training/TF%20
 </ol>
 
 ### REST API
-REST_API_Parent_Child_Lambdas: https://9t3cvckvk0.execute-api.us-east-1.amazonaws.com/Dev_v1
-
+Rest API : https://9t3cvckvk0.execute-api.us-east-1.amazonaws.com/Dev_v1
+Test results ![response](assets/response.png)
