@@ -1,4 +1,6 @@
 ## MLOPS Challenge
+
+<p><strong>This was a fast upront solution better(final) implementation is at [ParentChildsLambdas Directory](ParentChildsLambdas) </strong></p>
 REST API lambda 1: https://oa3luyp1hf.execute-api.us-east-1.amazonaws.com/Dev_v1
 <p>
 Cold Start:
