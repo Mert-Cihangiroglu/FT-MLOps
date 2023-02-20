@@ -32,3 +32,4 @@ Rest API : https://9t3cvckvk0.execute-api.us-east-1.amazonaws.com/Dev_v1
 - Create a VPC for Lambda functions.
 - Step Functions can be used instead of having a lambda to handle requests.
 - S3 Bucket could be used to load Random Forest Model.
+- AWS EFS for lambda functions.
