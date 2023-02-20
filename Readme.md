@@ -5,7 +5,7 @@
 Details about building models can be found in the this [notebook](training/TF%20MLOPs%20challenge.ipynb).
 
 ### Part 2- Deploying Models
-All the necessary code can be found in [this directory](ParentChildsLambdas).
+All the necessary code is in [this directory](ParentChildsLambdas).
 ![Architecure](assets/architecture.png)
 <ol>
     <li>Payload is sent to AWS API GATEWAY.</li>
