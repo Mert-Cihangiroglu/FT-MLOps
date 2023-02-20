@@ -4,9 +4,6 @@ This was a fast upront solution. Better (final) implementation is at [ParentChil
 <p>------------------------------------------------------------</p>
 REST API lambda 1: https://oa3luyp1hf.execute-api.us-east-1.amazonaws.com/Dev_v1
 <p>
-Cold Start:
-<ul>
-    <li>Container for the function is initialized. This process takes some time, for the first Invoke the time range is between 8 seconds to 12 seconds.</li>
 </ul>
 Subsequent requests:
 <ul>
