@@ -1,9 +1,10 @@
 ## MLOPS Challenge
 Objective: build and deploy a Machine learning model for user recognition based on keystroke data and is consists of 2 separate parts.
 
-Part 1 – Building Model
-Details about building model can be found in the notebook.
-Part 2- Deploying Model
+### Part 1 – Building Models
+Details about building models can be found in the this [Link notebook](training/TF%20MLOPs%20challenge.ipynb)
+<br>
+### Part 2- Deploying Models
 ![Architecure](assets/architecture.png)
 <ol>
     <li>Payload is sent to AWS API GATEWAY.</li>
@@ -21,6 +22,6 @@ Part 2- Deploying Model
     <li>API GATEWAY sends back the response to client.</li>
 </ol>
 
-REST_API_lambda_1: https://oa3luyp1hf.execute-api.us-east-1.amazonaws.com/Dev_v1
+### REST API
 REST_API_Parent_Child_Lambdas: https://9t3cvckvk0.execute-api.us-east-1.amazonaws.com/Dev_v1
 
