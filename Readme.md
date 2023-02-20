@@ -2,7 +2,7 @@
 Objective: build and deploy a Machine learning model for user recognition based on keystroke data and is consists of 2 separate parts.
 
 ### Part 1 – Building Models
-Details about building models can be found in the this [Link notebook](training/TF%20MLOPs%20challenge.ipynb)
+Details about building models can be found in the this [notebook](training/TF%20MLOPs%20challenge.ipynb)
 <br>
 ### Part 2- Deploying Models
 ![Architecure](assets/architecture.png)
