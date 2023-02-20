@@ -1,0 +1,13 @@
+data/*
+models/*
+lambda/*.pkl
+lambda/*.json
+training/.ipynb_checkpoints/*
+commands.txt
+Readme.md
+ParentChildsLambdas/Readme.md
+ParentChildsLambdas/*/*.pkl
+ParentChildsLambdas/*/*.json
+backups/*
+training/.ipynb_checkpoints/*
+```
