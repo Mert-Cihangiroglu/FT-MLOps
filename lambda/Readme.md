@@ -23,17 +23,4 @@ Cons of this lambda:
     <li>Initialization of the function takes long.</li>
     <li>Adding new models to workflow requires creating the image and lambda function from start.</li>
 </ul>
-What can be done?
-<ul>
-    <li>
-    Create 4 lambda functions:
-    1- Parent Lambda
-    2- ChildLambdaRF
-    3- ChildLambdSVM
-    4- ChildLambdaXGB
-    You can find the implementation of this lambda functions in ParentChildsLambdas folder.
-    </li>
-
-
-</ul>
 </p>
