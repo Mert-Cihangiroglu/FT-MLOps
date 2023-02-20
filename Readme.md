@@ -27,8 +27,8 @@ All the necessary code is in [this directory](ParentChildsLambdas).
 Rest API : https://9t3cvckvk0.execute-api.us-east-1.amazonaws.com/Dev_v1
 ![response](assets/response.png)
 
-### Further Implementations
-- When Lambda Fails(wrong input), it returns the whole error stack, it shouldn't be that way.
+### Further Implementation (Can be done to make the system more robust)
+- Better error handling should be implemented. When Lambda Fails(wrong input), it returns the whole error stack, it shouldn't be that way.
 - Create a VPC for Lambda functions.
 - Step Functions can be used instead of having a lambda to handle requests.
 - S3 Bucket could be used to load Random Forest Model.
