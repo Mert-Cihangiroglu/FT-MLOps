@@ -25,4 +25,4 @@ All the necessary code is in [this directory](ParentChildsLambdas).
 
 ### REST API
 Rest API : https://9t3cvckvk0.execute-api.us-east-1.amazonaws.com/Dev_v1
-Test results ![response](assets/response.png)
+![response](assets/response.png)
