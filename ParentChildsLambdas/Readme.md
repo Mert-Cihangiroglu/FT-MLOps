@@ -1,0 +1,16 @@
+## Implementation steps:
+- Create lambda functions for each model.
+- Create Docker Images for each lambda.
+- Build Docker images, tag them, test them locally, push them into ECR Repo.
+- Create Lambda functions with AWS GUI, configure the lambda functions (time-out, and resources)
+- Test the Lambda in AWS GUI.
+- Create a Parent Lambda Function.
+- Build Docker image, tag it, push it to ECR Repo.
+- Create a policy, add ARNs of each of the child lambda functions and allow invoking.(Policy named: InvokeMultipleLambdaPolicy.)
+- Add AWSLambdaBasicExecutionRole as well.
+- Create a role from the InvokeMultipleLambdaPolicy and AWSLambdaBasicExecutionRole. New Role: (InvokeMultipleLambdaRole)
+- Add the created InvokeMultipleLambdaRole to Parent Lambda
+- Create the Lambda function with AWS GUI, test it.
+- Once all the lambdas working perfectly, create a REST API using AWS APIGATEWAY GUI.
+- Test the REST API.
+- Deploy the API.

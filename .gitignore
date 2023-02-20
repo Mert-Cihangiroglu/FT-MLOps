@@ -4,7 +4,6 @@ lambda/*.pkl
 lambda/*.json
 training/.ipynb_checkpoints/*
 commands.txt
-ParentChildsLambdas/Readme.md
 ParentChildsLambdas/*/*.pkl
 ParentChildsLambdas/ChildLambda_XGB/*.json
 backups/*
