@@ -10,7 +10,7 @@ Details about building models can be found in the this [Link notebook](training/
     <li>Payload is sent to AWS API GATEWAY.</li>
     <li>API GATEWAY Invokes the Parent Lambda Function, it passes the payload.</li>
     <li>Parent Lambda function receives the payload, it checks which model needs to be used from the payload.</li>
-    <li>Parent Lambda function invokes the correct child lambda function and sends the payload it received.</li>
+    <li>Parent Lambda function invokes the correct child lambda function(Child Lambdas are SF, RF, XGB) and sends the payload it received.</li>
     <li>Child Lambda function receives the payload and do the following:
     <ol type="a">
             <li>load the model</li>
