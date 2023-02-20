@@ -3,13 +3,8 @@
 This was a fast upront solution. Better (final) implementation is at [ParentChildsLambdas directory.](../ParentChildsLambdas)
 <p>------------------------------------------------------------</p>
 REST API lambda 1: https://oa3luyp1hf.execute-api.us-east-1.amazonaws.com/Dev_v1
-<p>
-</ul>
-Subsequent requests:
-<ul>
-    <li>Subsequent requests takes approximetely 20-30 ms.</li>
-</ul>
-</p>
+
+
 <p>
 Pros of this lambda:
 <ul>
